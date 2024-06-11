@@ -17,6 +17,8 @@ const HeroSection = () => {
               sequence={[
                 "Stephanie",
                 1000,
+                "in Computer Science",
+                1000,
                 "a Data Analyst",
                 1000,
                 "a Mobile Developer",
@@ -30,12 +32,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            As a Computer Science student with a passion for Data Science and
-            Analysis, I've built a solid foundation through academic pursuits
-            and personal projects. I thrive in dynamic environments, solving
-            complex problems with strong analytical skills and a proactive
-            approach. Eager to contribute to innovative projects, I'm actively
-            seeking opportunities to apply my knowledge and grow in my career.
+            I'm a Computer Science student with a passion for Data Science,
+            Frontend Development, and AI. I'm seeking internships to gain
+            industry experience. <br></br>Explore my journey and projects
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-500 via-red-500 to-pink-500 hover:bg-slate-200 text-white">
@@ -48,15 +47,17 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-5 place-self-center mb-6 mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px]  lg:w-[330px] lg:h-[330px] relative shadow-lg">
-            <Image
-              src="/images/hero-image.png"
-              alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
-            />
+        <div className="col-span-5 place-self-center mb-6 mt-4 lg:mt-0 relative">
+          <div className="rounded-full bg-[#fffdde] w-[250px] h-[250px] lg:w-[330px] lg:h-[330px] relative shadow-lg z-10 overflow-hidden">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <Image
+                src="/images/hero-image.png"
+                alt="hero image"
+                className="rounded-full object-cover"
+                width={300}
+                height={300}
+              />
+            </div>
           </div>
         </div>
       </div>
