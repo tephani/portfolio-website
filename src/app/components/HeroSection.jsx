@@ -32,7 +32,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a Computer Science student with a passion for Data Science,
+            A Computer Science student with a passion for Data Science,
             Frontend Development, and AI. I'm seeking internships to gain
             industry experience. <br></br>Explore my journey and projects
           </p>
