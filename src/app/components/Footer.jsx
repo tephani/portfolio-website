@@ -10,6 +10,11 @@ const Footer = () => {
           alt="Next.js Logo" 
           className="h-6 w-6 inline-block"
         />
+        <img 
+          src="/images/tech/nodew.png"
+          alt="Next.js Logo" 
+          className="h-20 w-20 inline-block"
+        />
       </div>
     </footer>
   );
