@@ -5,6 +5,14 @@ import Image from "next/image";
 const Coursework = () => {
   const experiences = [
     {
+      date: "May 2024",
+      title: "Foundations: Data, Data, Everywhere",
+      description:
+        "Learned key concepts involved in data analytics including data, data analysis, and data ecosystems.",
+      link: "https://www.coursera.org/account/accomplishments/verify/THFTYQXYWV78",
+      photo: "/images/coursework/ddd.jpeg",
+    },
+    {
       date: "Mar 2024",
       title: "Intermediate SQL",
       description:
@@ -40,7 +48,7 @@ const Coursework = () => {
           <div className="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-r from-red-400 to-pink-600 rounded-full"></div>
           {experiences.map((exp, index) => (
             <div key={index} className="flex items-start">
-              <div className="grid grid-cols-2">
+              <div className="md:grid grid-cols-1 lg:grid-cols-2">
                 <div className="absolute flex-shrink-0">
                   <div className="w-4 h-4 bg-gradient-to-r from-purple-400 to-pink-600 rounded-full"></div>
                 </div>

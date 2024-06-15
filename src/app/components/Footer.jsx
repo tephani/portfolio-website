@@ -15,6 +15,7 @@ const Footer = () => {
           alt="Next.js Logo" 
           className="h-20 w-20 inline-block"
         />
+        . 2024.
       </div>
     </footer>
   );

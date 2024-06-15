@@ -7,6 +7,7 @@ import ProjectSection from "./components/ProjectSection";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Coursework from "./components/Coursework";
+import Certifications from "./components/Certifications";
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
           <ProjectSection />
           <br></br>
           <Experience />
+          <br></br>
+          <Certifications />
           <br></br>
           <Coursework />
           {/* <EmailSection /> */}
