@@ -83,8 +83,8 @@ const ProjectSection = () => {
       : projectsData.filter((project) => project.tag.includes(tag));
 
   return (
-    <div className="border border-[#fffdde] mt-10">
-      <h2 className="text-4xl font-bold text-white mt-10 mb-0 text-center">
+    <div className="border border-white mt-10">
+      <h2 className="text-4xl font-bold text-white mt-5 text-center">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6 flex-wrap">

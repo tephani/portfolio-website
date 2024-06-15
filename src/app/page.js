@@ -5,6 +5,7 @@ import TechStackSection from "./components/TechStackSection";
 import ProjectSection from "./components/ProjectSection";
 // import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           <br></br>
           <ProjectSection />
           <br></br>
+          <Experience />
           {/* <EmailSection /> */}
         </div>
         <Footer />

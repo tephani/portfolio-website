@@ -17,12 +17,13 @@ const HeroSection = () => {
             1000,
             "in Computer Science",
             1000,
-            "a Data Analyst",
+            "an aspiring Data Scientist",
             1000,
-            "a Mobile Developer",
+            "a Frontend Developer",
             1000,
-            "a Web Developer",
+            "a Student Leader",
             1000,
+            "the Founder of DOUM",
           ]}
           wrapper="span"
           speed={50}
@@ -57,7 +58,7 @@ const HeroSection = () => {
             . I'm seeking internships to gain industry experience. Explore my
             journey and projects.
           </p>
-          <div>
+          {/* <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-500 via-red-500 to-pink-500 hover:bg-slate-200 text-white">
               Hire Me
             </button>
@@ -66,7 +67,7 @@ const HeroSection = () => {
                 Download CV
               </span>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

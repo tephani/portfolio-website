@@ -41,7 +41,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white  border border-[#fffdde] mt-10">
+    <section className="text-white  border border-white mt-10">
       <div className="md:grid grid-cols-1 lg:grid-cols-2 gap-6 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about.png"
