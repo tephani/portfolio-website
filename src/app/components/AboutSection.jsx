@@ -42,9 +42,9 @@ const AboutSection = () => {
 
   return (
     <section className="text-white  border border-[#fffdde] mt-10">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid grid-cols-1 lg:grid-cols-2 gap-6 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
-          src="/images/about-me.png"
+          src="/images/about.png"
           alt="hero-section image"
           width={500}
           height={500}
@@ -59,7 +59,7 @@ const AboutSection = () => {
             analytics to drive informed decisions and aim to further my
             expertise in statistics to enhance my skills in machine learning and
             AI. My goal is to create innovative projects that leverage these
-            technologies.<br></br><span className="text-gray-400 text-sm">(Art credit: Unknown)</span>
+            technologies.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

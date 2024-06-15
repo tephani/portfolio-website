@@ -14,14 +14,19 @@ const TechStackSection = () => {
     "/images/tech/R.png",
     "/images/tech/java-logo.png",
     "/images/tech/mysql.png",
+    "/images/tech/reactjs.png",
+    "/images/tech/linux.png",
+    "/images/tech/linuxmint.png",
+    "/images/tech/fedora.png",
   ];
 
   return (
     <>
       <h2 className="text-4xl font-bold text-white mt-10 text-center">Tech Stack</h2>
-      <div className="bg-[#fffdde] rounded-lg p-4 border border-[#fffdde] mt-4">
+      <p className="text-white font-800 text-sm text-center">(encountered so far)</p>
+      <div className="bg-[#fffdde] rounded-lg p-4 border border-[#fffdde] mt-1">
         <section className="text-white">
-          <div className="grid grid-cols-6 gap-1 justify-center py-4 px-2 md:px-4 lg:px-8 xl:gap-8">
+          <div className="grid grid-cols-6 gap-4 justify-center py-4 px-2 md:px-4 lg:px-8 xl:gap-8">
             {images.map((image, index) => (
               <div key={index} className="flex items-center justify-center">
                 <img
