@@ -29,10 +29,10 @@ const Experience = () => {
   return (
     <>
       <div className="bg-[#181818] p-4 border border-white mt-10">
-        <h2 className="text-4xl font-bold text-white mt-5 text-center">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-5 text-center">
           Volunteering Experience
         </h2>
-        <p className="text-[#ADB7BE] pl-6 pt-2 pb-4">
+        <p className="text-[#ADB7BE] pl-6 pt-2 pb-4 text-base sm:text-lg md:text-xl lg:text-2xl">
           As a Computer Science student, I have been actively involved in
           various community tech initiatives, leveraging my passion for
           innovation to drive projects that enhance digital literacy and foster
@@ -45,16 +45,16 @@ const Experience = () => {
               <div className="absolute flex-shrink-0">
                 <div className="w-4 h-4 bg-gradient-to-r from-purple-400 to-pink-600 rounded-full"></div>
               </div>
-              <div className="grid grid-cols-4 gap-4 ml-10">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 ml-10">
                 <div className="">
-                  <span className="block text-white font-thin">{exp.date}</span>
+                  <span className="block text-white font-thin text-xs sm:text-sm md:text-base lg:text-lg">{exp.date}</span>
                 </div>
                 <div className="col-span-2">
-                  <h3 className="text-2xl font-semibold text-white">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white">
                     {exp.title}
                   </h3>
-                  <p className="text-lg text-white">{exp.company}</p>
-                  <p className="text-sm text-gray-300">{exp.description}</p>
+                  <p className="text-base sm:text-lg md:text-xl text-white">{exp.company}</p>
+                  <p className="text-xs sm:text-sm md:text-base text-gray-300">{exp.description}</p>
                 </div>
               </div>
             </div>
