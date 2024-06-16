@@ -5,7 +5,7 @@ const TechStackSection = () => {
     "/images/tech/tableau.png",
     "/images/tech/html-5.png",
     "/images/tech/css-3.png",
-    "/images/tech/node.png",
+    "/images/tech/vercel.png",
     "/images/tech/java-script.png",
     "/images/tech/github.png",
     "/images/tech/git.png",

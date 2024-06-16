@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Coursework from "./components/Coursework";
 import Certifications from "./components/Certifications";
+import Education from "./components/Education";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <div class="container mt-24 mx-auto px-12 py-4">
           <HeroSection />
           <AboutSection />
+          <br></br>
+          <Education />
           <br></br>
           <TechStackSection />
           <br></br>
