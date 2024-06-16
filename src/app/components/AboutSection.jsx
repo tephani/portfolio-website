@@ -45,7 +45,7 @@ const AboutSection = () => {
       <div className="md:grid grid-cols-1 lg:grid-cols-2 gap-6 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about.png"
-          alt="hero-section image"
+          alt="about me image"
           width={500}
           height={500}
         />

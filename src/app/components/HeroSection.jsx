@@ -36,11 +36,11 @@ const HeroSection = () => {
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[330px] lg:h-[330px] relative shadow-lg overflow-hidden">
             <div className="absolute inset-0 flex items-center justify-center z-10">
               <Image
-                src="/images/hero-image.png"
+                src="/images/hero-image-2.png"
                 alt="hero image"
-                className="rounded-full object-cover z-10"
-                width={300}
-                height={300}
+                className="rounded-full object-cover"
+                width={330}
+                height={330} 
               />
             </div>
           </div>
