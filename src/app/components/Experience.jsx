@@ -27,7 +27,7 @@ const Experience = () => {
   ];
 
   return (
-    <>
+    <section id="experience">
       <div className="bg-[#181818] p-4 border border-white mt-10">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4 sm:mt-6 md:mt-8 lg:mt-10 mb-2 sm:mb-3 md:mb-4 lg:mb-5 text-center">
           Volunteering Experience
@@ -67,7 +67,7 @@ const Experience = () => {
           ))}
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

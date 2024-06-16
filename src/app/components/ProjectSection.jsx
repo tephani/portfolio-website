@@ -83,50 +83,52 @@ const ProjectSection = () => {
       : projectsData.filter((project) => project.tag.includes(tag));
 
   return (
-    <div className="border border-white mt-10">
-      <h2 className="text-4xl font-bold text-white mt-5 text-center">
-        My Projects
-      </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6 flex-wrap">
-        <ProjectTag
-          onClick={() => handleTagChange("All")}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={() => handleTagChange("Analytics Study")}
-          name="Analytics Case Study"
-          isSelected={tag === "Analytics Study"}
-        />
-        <ProjectTag
-          onClick={() => handleTagChange("Machine Learning")}
-          name="Machine Learning"
-          isSelected={tag === "Machine Learning"}
-        />
-        <ProjectTag
-          onClick={() => handleTagChange("Web")}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={() => handleTagChange("Mobile")}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        />
-      </div>
-      <div className="py-8 px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {filteredProjects.map((project) => (
-          <ProjectCard
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            imgUrl={project.image}
-            gitUrl={project.gitUrl}
-            previewUrl={project.previewUrl}
+    <section id="projects">
+      <div className="border border-white mt-10">
+        <h2 className="text-4xl font-bold text-white mt-5 text-center">
+          My Projects
+        </h2>
+        <div className="text-white flex flex-row justify-center items-center gap-2 py-6 flex-wrap">
+          <ProjectTag
+            onClick={() => handleTagChange("All")}
+            name="All"
+            isSelected={tag === "All"}
           />
-        ))}
+          <ProjectTag
+            onClick={() => handleTagChange("Analytics Study")}
+            name="Analytics Case Study"
+            isSelected={tag === "Analytics Study"}
+          />
+          <ProjectTag
+            onClick={() => handleTagChange("Machine Learning")}
+            name="Machine Learning"
+            isSelected={tag === "Machine Learning"}
+          />
+          <ProjectTag
+            onClick={() => handleTagChange("Web")}
+            name="Web"
+            isSelected={tag === "Web"}
+          />
+          <ProjectTag
+            onClick={() => handleTagChange("Mobile")}
+            name="Mobile"
+            isSelected={tag === "Mobile"}
+          />
+        </div>
+        <div className="py-8 px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {filteredProjects.map((project) => (
+            <ProjectCard
+              key={project.id}
+              title={project.title}
+              description={project.description}
+              imgUrl={project.image}
+              gitUrl={project.gitUrl}
+              previewUrl={project.previewUrl}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

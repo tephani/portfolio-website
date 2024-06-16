@@ -8,13 +8,11 @@ const HeroSection = () => {
     <section>
       <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold text-center">
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-600">
-          Hi, I&apos;m{" "}
+          Hi, I&apos;m Stephanie Palero,{" "}
         </span>
         <br></br>
         <TypeAnimation
           sequence={[
-            "Stephanie Palero",
-            1000,
             "in Computer Science",
             1000,
             "an aspiring Data Scientist",
