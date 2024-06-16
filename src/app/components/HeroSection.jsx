@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import SocialLinks from "./SocialLinks";
 
 const HeroSection = () => {
   return (
@@ -39,7 +40,7 @@ const HeroSection = () => {
                 alt="hero image"
                 className="rounded-full object-cover"
                 width={330}
-                height={330} 
+                height={330}
               />
             </div>
           </div>
@@ -57,6 +58,9 @@ const HeroSection = () => {
             . I'm seeking internships to gain industry experience. Explore my
             journey and projects.
           </p>
+          <div className="flex items-center space-x-4">
+            <SocialLinks />
+          </div>
           {/* <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-500 via-red-500 to-pink-500 hover:bg-slate-200 text-white">
               Hire Me
