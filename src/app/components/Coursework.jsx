@@ -29,21 +29,22 @@ const Coursework = () => {
       photo: "/images/coursework/intermediate-python.png",
     },
     {
-        date: "Nov 2023",
-        title: "Understanding Data Science",
-        description:
-          "Learned the nature of data science, how data is collected and stored, the preparation, exploration, and visualization of data.",
-        link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/160c54dc4f81c9da9d3628e3bc099379ae630423",
-        photo: "/images/coursework/data-science.png",
-      },
+      date: "Nov 2023",
+      title: "Understanding Data Science",
+      description:
+        "Learned the nature of data science, how data is collected and stored, the preparation, exploration, and visualization of data.",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/160c54dc4f81c9da9d3628e3bc099379ae630423",
+      photo: "/images/coursework/data-science.png",
+    },
   ];
 
   return (
     <>
       <div className="bg-[#181818] p-4 border border-white mt-10">
-        <h2 className="text-4xl font-bold text-white mt-5 text-center">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4 sm:mt-6 md:mt-8 lg:mt-10 mb-2 sm:mb-3 md:mb-4 lg:mb-5 text-center">
           Coursework
         </h2>
+
         <div className="relative pl-12 space-y-8">
           <div className="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-r from-red-400 to-pink-600 rounded-full"></div>
           {experiences.map((exp, index) => (
@@ -61,7 +62,9 @@ const Coursework = () => {
                   <h3 className="text-2xl font-semibold text-white">
                     {exp.title}
                   </h3>
-                  <p className="text-sm text-gray-300 mb-2">{exp.description}</p>
+                  <p className="text-sm text-gray-300 mb-2">
+                    {exp.description}
+                  </p>
                   <Link href={exp.link} passHref>
                     <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 via-pink-500 to-pink-500  hover:bg-slate-800 text-white mt-1 mb-2">
                       <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 text-sm">

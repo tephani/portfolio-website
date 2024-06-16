@@ -25,9 +25,10 @@ const Certifications = () => {
     <>
       <div className=" rounded-lg border border-[#fffdde] mt-1 pb-6 pl-4 pr-4">
         <section className="text-white">
-          <h2 className="text-4xl font-bold text-white mt-10 mb-4 text-center">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4 sm:mt-6 md:mt-8 lg:mt-10 mb-2 sm:mb-3 md:mb-4 lg:mb-5 text-center">
             Certifications
           </h2>
+
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-center py-4 px-2 md:px-4">
             {certifications.map((cert, index) => (
               <div key={index} className="flex items-center justify-center">
