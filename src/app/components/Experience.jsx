@@ -32,7 +32,7 @@ const Experience = () => {
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4 sm:mt-6 md:mt-8 lg:mt-10 mb-2 sm:mb-3 md:mb-4 lg:mb-5 text-center">
           Volunteering Experience
         </h2>
-        <p className="text-[#ADB7BE] pl-6 pt-2 pb-4 text-base sm:text-lg md:text-xl lg:text-2xl">
+        <p className="text-[#ADB7BE] pl-6 pt-2 pb-4 text-base sm:text-lg lg:text-xl">
           As a Computer Science student, I have been actively involved in
           various community tech initiatives, leveraging my passion for
           innovation to drive projects that enhance digital literacy and foster
