@@ -78,6 +78,15 @@ const Education = () => {
                   <li>First Honor, A.Y 2022-2023</li>
                   <li>First Honor, A.Y 2021-2022</li>
                 </ul>
+                <br></br>
+                <p className="text-lg italic underline text-white">
+                  Honors & Awards
+                </p>
+                <ul className="text-sm text-white pl-4 pt-3 list-disc marker marker:text-pink-400">
+                  <li>Google Scholar, Granted by DTI 2024.</li>
+                  <li>IT Pitching 2nd Place, Awarded by PSITS Region 11 of 2024's IT Olympiad</li>
+                  <li>Breakthrough and Achievers Award, Awarded by Office of Student Affairs to the CCE-CSG (A.Y 2022-2023)</li>
+                </ul>
               </div>
             </div>
           </div>

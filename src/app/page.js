@@ -30,6 +30,7 @@ export default function Home() {
           <Certifications />
           <br></br>
           <Coursework />
+          <br></br>
           {/* <EmailSection /> */}
         </div>
         <Footer />
