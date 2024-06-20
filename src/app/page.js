@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import AboutSection from "./components/AboutSection";
 import TechStackSection from "./components/TechStackSection";
 import ProjectSection from "./components/ProjectSection";
-// import EmailSection from "./components/EmailSection";
+import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Coursework from "./components/Coursework";
@@ -34,7 +34,7 @@ export default function Home() {
           <br></br>
           <Coursework />
           <br></br>
-          {/* <EmailSection /> */}
+          <EmailSection />
         </div>
         <Footer />
       </main>
