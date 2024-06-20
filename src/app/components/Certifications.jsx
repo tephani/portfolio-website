@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const Certifications = () => {
   const certifications = [
@@ -22,29 +24,32 @@ const Certifications = () => {
   ];
 
   return (
-    <>
-      <div className=" rounded-lg border border-[#fffdde] mt-1 pb-6 pl-4 pr-4">
-        <section className="text-white">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4 sm:mt-6 md:mt-8 lg:mt-10 mb-2 sm:mb-3 md:mb-4 lg:mb-5 text-center">
-            Certifications
-          </h2>
-
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-center py-4 px-2 md:px-4">
-            {certifications.map((cert, index) => (
-              <div key={index} className="flex items-center justify-center">
-                <Link href={cert.link}>
-                  <img
-                    src={cert.image}
-                    alt={`Image ${index + 1}`}
-                    className="object-cover w-40 h-40 md:w-48 md:h-48 transform scale-100 hover:scale-110"
+    <section className="text-white">
+      <h2 className="text-4xl font-bold text-white mt-10 text-center">
+        International Certifications
+      </h2>
+      <div className="bg-white border border-[#fffdde] mt-1 pb-6 pl-4 pr-4 rounded-lg ">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-center py-4 px-2 md:px-4">
+          {certifications.map((cert, index) => (
+            <div key={index} className="relative group mx-auto">
+              <img
+                src={cert.image}
+                alt={`Image ${index + 1}`}
+                className="object-cover sm:w-20 sm:h-20 md:w-48 md:h-48 rounded-lg"
+              />
+              <Link href={cert.link}>
+                <div className="absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 flex items-center justify-center group-hover:bg-opacity-80 transition-all duration-500 rounded-lg">
+                  <FontAwesomeIcon
+                    icon={faLink}
+                    className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 h-10 w-10"
                   />
-                </Link>
-              </div>
-            ))}
-          </div>
-        </section>
+                </div>
+              </Link>
+            </div>
+          ))}
+        </div>
       </div>
-    </>
+    </section>
   );
 };
 

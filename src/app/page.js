@@ -9,6 +9,7 @@ import Experience from "./components/Experience";
 import Coursework from "./components/Coursework";
 import Certifications from "./components/Certifications";
 import Education from "./components/Education";
+import Awards from "./components/Awards";
 
 export default function Home() {
   return (
@@ -23,11 +24,13 @@ export default function Home() {
           <br></br>
           <TechStackSection />
           <br></br>
+          <Awards />
+          <br></br>
+          <Certifications />
+          <br></br>
           <ProjectSection />
           <br></br>
           <Experience />
-          <br></br>
-          <Certifications />
           <br></br>
           <Coursework />
           <br></br>

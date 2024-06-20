@@ -12,6 +12,10 @@ const navLinks = [
     path: "#about",
   },
   {
+    title: "Certifications & Awards",
+    path: "#certifications",
+  },
+  {
     title: "Projects",
     path: "#projects",
   },
@@ -29,7 +33,7 @@ const NavBar = () => {
       boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)'
      }}
      className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-20 py-2">
+      <div className="flex flex-wrap items-center justify-between mx-auto px-6 lg:px-28 py-2">
         <Link
           href={'/'} className="sm:ml-4 lg:ml-16 text-2xl md:text-2xl text-white font-semibold">
           @tephani
