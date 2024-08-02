@@ -5,6 +5,14 @@ import Image from "next/image";
 const Awards = () => {
   const experiences = [
     {
+      date: "July 2024",
+      title: "Google I/O Extended 2024 Davao",
+      description:
+        "Issued by GDG Davao as certificate of participating the 2024 Google I/O Extended held at Ateneo Davao University, Davao City.",
+      link: "https://www.facebook.com/share/p/oXhHyso5qDKKsvjk/",
+      photo: "/images/certifications/certs&awards/googleio2024.png",
+    },
+    {
       date: "May 2024",
       title: "1st Runner Up: Mindanao-Wide IT Olympiad 2024",
       description:
@@ -17,7 +25,7 @@ const Awards = () => {
       title:
         "Certificate of Appreciation - Speaker for sustAInable: Exploring AI for Environmental Monitoring and Conservation",
       description:
-        "Issued by Analytics & artificial Intelligence Association of the Philippines (AAP), Department of Information and Communications Technology - Philippines, ICT Industry Development Bureau.",
+        "Issued by the College of Student Education - CSG as appreciation as guest speaker.",
       link: "https://web.facebook.com/share/p/FD2Mx9AR58N8Uz8k/",
       photo: "/images/certifications/certs&awards/speaker.jpg",
     },
@@ -46,7 +54,7 @@ const Awards = () => {
     },
     {
       date: "Jul 2023",
-      title: "Google I/O Extended Davao",
+      title: "Google I/O Extended 2023 Davao",
       description: "Issued by the Google Developer Group Davao.",
       link: "https://www.linkedin.com/in/teptep/details/certifications/1635551070137/single-media-viewer/?profileId=ACoAAEXH4sABJYJMIsBSNW0gKSzihtUGCTDJatM",
       photo: "/images/certifications/certs&awards/googleio.png",
