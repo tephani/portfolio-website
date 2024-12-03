@@ -55,7 +55,7 @@ const HeroSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-600 font-bold">
               Data Science, Frontend Development, and AI
             </span>
-            . I'm currently an intern in Jairosoft as a Project Manager and Quality Assurance Tester. Explore my
+            . I was an intern in Jairosoft Inc. as a Project Manager and Quality Assurance Tester. Explore my
             journey and projects.
           </p>
           <div className="flex items-center space-x-4">
