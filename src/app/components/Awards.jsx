@@ -5,7 +5,7 @@ import Image from "next/image";
 const Awards = () => {
   const experiences = [
     {
-      date: "December 2024",
+      date: "December \n2024",
       title: "Gen AI in StartUp - Resource Speaker",
       description:
         "Issued by DOST-DNSC BUGSAI TBI and the DNSC Institute of Computing.",
