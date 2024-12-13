@@ -5,6 +5,14 @@ import Image from "next/image";
 const Awards = () => {
   const experiences = [
     {
+      date: "December 2024",
+      title: "Gen AI in StartUp - Resource Speaker",
+      description:
+        "Issued by DOST-DNSC BUGSAI TBI and the DNSC Institute of Computing.",
+      link: "https://web.facebook.com/share/p/bZc25iiuCLSvvRjZ/",
+      photo: "/images/certifications/certs&awards/bugsai.png",
+    },
+    {
       date: "July 2024",
       title: "Google I/O Extended 2024 Davao",
       description:
