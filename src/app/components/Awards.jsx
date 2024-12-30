@@ -6,6 +6,14 @@ const Awards = () => {
   const experiences = [
     {
       date: "December \n2024",
+      title: "𝗗𝗶𝘃𝗶𝗻𝗴 𝗜𝗻𝘁𝗼 𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗥𝗔𝗚: 𝗢𝘃𝗲𝗿𝗰𝗼𝗺𝗶𝗻𝗴 𝘁𝗵𝗲 𝗟𝗶𝗺𝗶𝘁𝗮𝘁𝗶𝗼𝗻𝘀 𝗼𝗳 𝗡𝗮𝗶𝘃𝗲 𝗥𝗔G",
+      description:
+        "Issued by DurianPy - Davao Python User Group",
+      link: "https://www.facebook.com/share/p/gCV8Dq3WgrqM7mzU/",
+      photo: "/images/certifications/certs&awards/durianpyrag.jpg",
+    },
+    {
+      date: "December \n2024",
       title: "Gen AI in StartUp - Resource Speaker",
       description:
         "Issued by DOST-DNSC BUGSAI TBI and the DNSC Institute of Computing.",
