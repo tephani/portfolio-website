@@ -5,15 +5,15 @@ import Image from "next/image";
 const Awards = () => {
   const experiences = [
     {
-      date: "December \n2024",
-      title: "Diving Into Advanced RAG: Overcoming the Limitations of Naive RAG.",
+      date: "Dec 2024",
+      title: "Diving Into Advanced RAG: Overcoming the Limitations of Naive RAG",
       description:
         "Issued by DurianPy - Davao Python User Group",
       link: "https://www.facebook.com/share/p/gCV8Dq3WgrqM7mzU/",
       photo: "/images/certifications/certs&awards/durianpyrag.jpg",
     },
     {
-      date: "December \n2024",
+      date: "Dec 2024",
       title: "Gen AI in StartUp - Resource Speaker",
       description:
         "Issued by DOST-DNSC BUGSAI TBI and the DNSC Institute of Computing.",
@@ -21,7 +21,7 @@ const Awards = () => {
       photo: "/images/certifications/certs&awards/bugsai.png",
     },
     {
-      date: "July 2024",
+      date: "Jul 2024",
       title: "Google I/O Extended 2024 Davao",
       description:
         "Issued by GDG Davao as certificate of participating the 2024 Google I/O Extended held at Ateneo Davao University, Davao City.",
